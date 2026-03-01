@@ -1,0 +1,18 @@
+{
+  "name": "openclaw-openai-adapter",
+  "version": "1.0.0",
+  "description": "OpenAI兼容API适配器 for OpenClaw",
+  "main": "openclaw-openai-server.js",
+  "scripts": {
+    "start": "node openclaw-openai-server.js",
+    "test": "node test-openai-compatible.js",
+    "adapter": "node openclaw-adapter.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.1",
+    "axios": "^1.7.9"
+  },
+  "keywords": ["openclaw", "openai", "api", "adapter"],
+  "author": "",
+  "license": "MIT"
+}

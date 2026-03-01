@@ -1,0 +1,20 @@
+{
+  "name": "santi-channel",
+  "version": "0.1.0",
+  "description": "OpenClaw Santi Channel插件 - 极简版",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node scripts/test-connection.js"
+  },
+  "dependencies": {
+    "ws": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": ["openclaw", "plugin", "chat", "santi"],
+  "author": "",
+  "license": "MIT"
+}

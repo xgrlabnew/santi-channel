@@ -1,0 +1,17 @@
+{
+  "name": "santi-channel",
+  "version": "0.1.0",
+  "description": "极简Santi Channel插件 - 连接sChat和OpenClaw",
+  "type": "channel",
+  "entry": "index.js",
+  "config": {
+    "port": 3001,
+    "openclaw_ws_url": "ws://localhost:18789"
+  },
+  "permissions": [
+    "websocket",
+    "openclaw_api"
+  ],
+  "author": "",
+  "license": "MIT"
+}

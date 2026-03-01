@@ -1,0 +1,14 @@
+{
+  "name": "schat",
+  "version": "0.1.0",
+  "description": "极简Santi Chat Web客户端",
+  "scripts": {
+    "dev": "cp src/app-v2.js public/app-v2.js && python3 -m http.server 3030 --directory public",
+    "build": "cp src/app-v2.js public/app-v2.js",
+    "start": "npm run build && npm run dev"
+  },
+  "devDependencies": {},
+  "keywords": ["chat", "openclaw", "santi"],
+  "author": "",
+  "license": "MIT"
+}
